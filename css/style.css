@@ -1,0 +1,194 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: sans-serif;
+}
+
+.nav{
+    color: rgb(7, 0, 0);
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #f9b60b;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+.nav a{
+    color: rgb(0, 0, 0);
+}
+  
+.nav li{ 
+    padding: 5px;
+}
+
+.nav li:hover{
+    background-color:rgb(51, 105, 186);
+}
+
+
+.Data-list{
+    
+    margin-left: 40%;
+}
+
+.Data-list li{
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.fa-chevron-down{
+    transform:rotate(0deg);
+    transition: 300mss;
+}
+.KampusSwastaBengkulu:hover .fa-chevron-down{
+    transform: rotate(-90deg);
+}
+
+.logo{
+    margin-left: 30px;
+}
+
+.list{
+    display: none;
+    border: 1px solid orange;
+    background-color: #333;
+    position: absolute;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+}
+
+.list li{
+    display: block;
+    margin-bottom: 10px;
+    color: whitesmoke;
+ }
+
+.Data-list a{
+    text-decoration: none;
+}
+
+.KampusSwastaBengkulu:hover .list {
+    display: block;
+
+}
+
+/* header=============== */
+
+.header{
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.des-header{
+    
+    width: 45%;
+    margin: auto;
+}
+.des-header h1{
+    font-weight: 700;
+    font-size: 6rem;
+    width: 50%;
+    color: rgb(51, 105, 186);
+}
+
+.gambar{
+    width: 45%;
+    height: 95vh;
+}
+
+.gambar img{
+    width: 70%;
+    height: 70%;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+/* bg card===========*/
+.bg-card{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+
+.card{
+    width: 250px;
+    height: 300px;
+    margin: auto;
+    margin: left 20px;
+    margin-bottom: 50px;
+}
+.card:hover{
+    box-shadow: 0px 0px 10px #434850;
+    transition: 300ms;
+}
+
+
+.gambar-card{
+    width: 250px;
+    height: 200px;
+    overflow: hidden
+}
+.gambar-card img{
+    width: 100%;
+    height: 100%;
+    transition: 1s;
+}
+.des-card{
+    padding: 5px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+}
+.des-card h2{
+    color: rgb(51, 105, 186);
+    margin-bottom: 10px;
+}
+
+.des-card p{
+    line-height: 25px;
+    color: #333;
+}
+
+.bg-card a{
+    text-decoration: none;
+}
+
+.card:hover img{
+    transform: scale(1.5);
+    transition: 2s;
+}
+
+/* container  ================ */
+
+.container{
+    width: 70%;
+    margin: auto;
+    }
+.content img {
+    width: 100%; 
+    height: 100% ;    
+    }
+    .content h2 {
+        margin-bottom: 10px; 
+      }
+      
+      .content p {
+        margin-top: 10px; 
+      }
+      
+      
+/*footer=====================*/
+
+.bg-footer{
+    height: 10vh;
+    background-color:  #f9b60b;
+    text-align: center;
+    color: rgb(51, 105, 186);
+    padding-top: 15vh;
+}
+
